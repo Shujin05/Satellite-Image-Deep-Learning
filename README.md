@@ -1,1 +1,1 @@
-# Satellite-Image-Deep-Learning
+# Satellite Image Deep Learning
