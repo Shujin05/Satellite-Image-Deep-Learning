@@ -1,0 +1,2 @@
+[console_scripts]
+investment-system = investment_system.main:cli

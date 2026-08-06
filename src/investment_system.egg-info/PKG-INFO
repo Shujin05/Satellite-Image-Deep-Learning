@@ -1,0 +1,28 @@
+Metadata-Version: 2.4
+Name: investment-system
+Version: 0.1.0
+Summary: Production-ready multi-agent investment system using A2A protocol and MCP
+Author: Investment System Team
+Keywords: multi-agent,investment,a2a,mcp,orchestration
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.14
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: structlog>=24.1.0
+Requires-Dist: pyyaml>=6.0.1
+Requires-Dist: google-adk>=0.1.0
+Requires-Dist: google-genai>=1.0.0
+Requires-Dist: httpx>=0.26.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.4.3; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.23.3; extra == "dev"
+Requires-Dist: pytest-cov>=4.1.0; extra == "dev"
+Requires-Dist: black>=23.12.1; extra == "dev"
+Requires-Dist: mypy>=1.8.0; extra == "dev"
+Requires-Dist: ruff>=0.1.9; extra == "dev"
+Requires-Dist: types-PyYAML>=6.0.12; extra == "dev"
+
+# Multi-Agent Investment
